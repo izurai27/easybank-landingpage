@@ -25,8 +25,8 @@ const Navbar = (props) => {
           <li>Careers</li>
         </ul>
         <h1>Next generation digital banking</h1>
-        <h2>Take your financial life online. Your Easybank account will be a one-stop-shop 
-  for spending, saving, budgeting, investing, and much more.</h2>
+        <p>Take your financial life online. Your Easybank account will be a one-stop-shop 
+  for spending, saving, budgeting, investing, and much more.</p>
         <button className="atcInvite">
           Request Invite
         </button>

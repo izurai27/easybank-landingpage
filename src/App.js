@@ -2,6 +2,7 @@ import Header from './components/Header';
 import './reset.css';
 import GlobalCSS from './global.css'
 import Hero from './components/hero';
+import Reason from './components/reason';
 
 
 
@@ -12,6 +13,7 @@ function App() {
       <GlobalCSS/>
       <Header/>
       <Hero/>
+      <Reason/>
     </div>
   );
 }

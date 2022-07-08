@@ -29,16 +29,16 @@ h1{
   font-size:calc(42/16*1rem);
   letter-spacing: -0.04em;
   color: var(--darkBlue);
-  margin-top:1em;
+  
 }
 
-h2{
+p{
   font-size:1rem;
   letter-spacing:-0.04em;
   color:var(--grayishBlue);
   line-height:106%;
-  margin-top:1rem;
-  margin-bottom:1rem;
+  /* margin-top:1rem;
+  margin-bottom:1rem; */
 }
 
 button{
@@ -48,5 +48,11 @@ button{
   border-radius:calc(32/16*1rem);
   background-image: linear-gradient(135deg, var(--limeGreen), var(--brightCyan));
   color:white;
+}
+
+h2{
+  font-size:calc(20/16*1rem);
+  letter-spacing: -0.06em;
+  color:var(--darkBlue);
 }
 `
