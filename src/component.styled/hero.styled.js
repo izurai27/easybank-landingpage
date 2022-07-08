@@ -19,4 +19,9 @@ export const HeroStyled = styled.main`
     /* margin-top:-96px; */
     
   }
+
+  .message{
+    padding-inline: 2rem;
+  }
+
 `

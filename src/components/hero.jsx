@@ -9,16 +9,19 @@ const Hero = () => {
       <div className="img">
         <img src={mockup} alt="mockup" />
       </div>
-      <Gap height='3rem'/>
-      <h1>Next generation digital banking</h1>
-      <Gap height='1rem'/>
-      <p>Take your financial life online. Your Easybank account will be a one-stop-shop 
-for spending, saving, budgeting, investing, and much more.</p>
-      <Gap height='1rem'/>
-      <button className="atcInvite">
-        Request Invite
-      </button>
-      <Gap height='5rem'/>
+      <div className='message'>
+
+        <Gap height='3rem'/>
+        <h1>Next generation digital banking</h1>
+        <Gap height='1rem'/>
+        <p>Take your financial life online. Your Easybank account will be a one-stop-shop 
+  for spending, saving, budgeting, investing, and much more.</p>
+        <Gap height='1rem'/>
+        <button className="atcInvite">
+          Request Invite
+        </button>
+        <Gap height='5rem'/>
+      </div>
     </HeroStyled>
     
   )
