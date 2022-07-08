@@ -3,6 +3,7 @@ import './reset.css';
 import GlobalCSS from './global.css'
 import Hero from './components/hero';
 import Reason from './components/reason';
+import Article from './components/article';
 
 
 
@@ -14,6 +15,7 @@ function App() {
       <Header/>
       <Hero/>
       <Reason/>
+      <Article/>
     </div>
   );
 }

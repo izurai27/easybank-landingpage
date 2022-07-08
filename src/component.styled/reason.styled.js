@@ -1,7 +1,7 @@
 import styled from "styled-components";
 
 export const ReasonStyled = styled.section`
-  background-color: var(--veryLightGray);
+  background-color: var(--lightGrayishBlue);
   text-align:center;
   padding: 60px 24px;
   display:flex;
