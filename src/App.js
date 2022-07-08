@@ -4,6 +4,7 @@ import GlobalCSS from './global.css'
 import Hero from './components/hero';
 import Reason from './components/reason';
 import Article from './components/article';
+import Footer from './components/footer';
 
 
 
@@ -16,6 +17,7 @@ function App() {
       <Hero/>
       <Reason/>
       <Article/>
+      <Footer/>
     </div>
   );
 }

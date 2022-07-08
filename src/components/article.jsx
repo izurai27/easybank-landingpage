@@ -50,7 +50,7 @@ const Article = () => {
             <h2>{element.title}</h2>
             <p>{element.caption}</p>
           </div>
-          
+        
         </div>
       )
     })}
