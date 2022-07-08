@@ -21,6 +21,8 @@ export const FooterStyled = styled.footer`
     display: flex;
     column-gap: 1rem;
   }
-  
+  li{
+    cursor:pointer;
+  }
   
 `

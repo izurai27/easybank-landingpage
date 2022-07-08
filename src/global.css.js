@@ -48,6 +48,7 @@ button{
   border-radius:calc(32/16*1rem);
   background-image: linear-gradient(135deg, var(--limeGreen), var(--brightCyan));
   color:white;
+  cursor:pointer;
 }
 
 h2{

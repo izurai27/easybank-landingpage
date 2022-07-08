@@ -10,6 +10,8 @@ export const NavStyled = styled.nav`
   top:0;
   height:fit-content;
   border:none;
+  min-height: 100vh;
+  z-index:333;
   
   .logobar{
     height:calc(60/16*1rem);
@@ -26,7 +28,7 @@ export const NavStyled = styled.nav`
     text-align: center;
     background-color: var(--grayishBlue);
     background-image:  url(${bgImg}), linear-gradient(to bottom, var(--darkBlue), var(--white));
-    background-position: left top, right top ;
+    background-position: right top, left top ;
     background-repeat: no-repeat no-repeat;
   }
 
@@ -42,6 +44,15 @@ export const NavStyled = styled.nav`
     letter-spacing:-0.03em;
     line-height:2.3em;
     
+  }
+
+  &::after{
+    content:'';
+    min-height: 200vh;
+    width:100vw;
+    background-color: white;
+    position:absolute;
+    z-index:-100;
   }
 
 `
