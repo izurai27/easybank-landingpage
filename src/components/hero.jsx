@@ -7,7 +7,10 @@ const Hero = () => {
   return (
     <HeroStyled>
       <div className="img">
-        <img src={mockup} alt="mockup" />
+        <div className="mockup">
+          <img src={mockup} alt="mockup" />
+
+        </div>
       </div>
       <div className='message'>
 

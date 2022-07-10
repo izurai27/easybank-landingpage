@@ -7,7 +7,8 @@ export const HeaderStyled = styled.header`
   height: 60px;
   box-sizing: border-box;
   position:relative;
- 
+  z-index:777;
+  
   .logo{
     padding-left:20px;
   }

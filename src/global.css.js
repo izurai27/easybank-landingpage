@@ -23,6 +23,7 @@ body{
   
   font-size: calc(18/16*1rem);
   font-family: 'Public Sans', sans-serif;
+  overflow: hidden;
 }
 
 h1{
