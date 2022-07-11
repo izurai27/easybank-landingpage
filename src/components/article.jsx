@@ -48,7 +48,7 @@ const Article = () => {
             <img src={element.image} alt="illustration" />
             <div className="caption">
               <cite>By {element.author}</cite>
-              <h2>{element.title}</h2>
+              <h3>{element.title}</h3>
               <p>{element.caption}</p>
             </div>
           

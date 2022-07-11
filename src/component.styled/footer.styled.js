@@ -11,6 +11,10 @@ export const FooterStyled = styled.footer`
   padding:calc(37/16*1rem);
   font-size: calc(15/16*1rem);
 
+  /* .footer_logo g path{
+    fill:#fff;
+  } */
+
   ul, .group{
     width:100%;
     display:flex;

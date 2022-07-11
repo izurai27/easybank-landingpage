@@ -54,6 +54,12 @@ button{
 }
 
 h2{
+  font-size:calc(42/16*1rem);
+  letter-spacing: -0.04em;
+  color:var(--darkBlue);
+}
+
+h3{
   font-size:calc(20/16*1rem);
   letter-spacing: -0.06em;
   color:var(--darkBlue);

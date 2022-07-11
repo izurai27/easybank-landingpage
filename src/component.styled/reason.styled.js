@@ -28,11 +28,13 @@ export const ReasonStyled = styled.section`
 
     .cards{
       display:flex;
+      column-gap: 2rem;
     }
 
     .group{
       text-align: left;
       align-items: flex-start;
+      
     }
 
     .title{

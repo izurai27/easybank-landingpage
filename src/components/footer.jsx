@@ -1,6 +1,7 @@
 import React from 'react'
 import { FooterStyled } from '../component.styled/footer.styled'
 import { ReactComponent as Logo } from '../images/logo copy.svg'
+// import { ReactComponent as Logo } from '../images/logo.svg'
 import fb from '../images/icon-facebook.svg'
 import ig from '../images/icon-instagram.svg'
 import twit from '../images/icon-twitter.svg'

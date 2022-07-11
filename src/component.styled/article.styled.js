@@ -40,7 +40,8 @@ export const ArticleStyled = styled.article`
   }
 
   @media only screen and (min-width:765px){
-    padding:30px calc(166/16*1rem) ;
+    padding:calc(78/16*1rem) calc(166/16*1rem) ;
+    align-items: flex-start;
 
     .articleCards{
       flex-direction: row;
