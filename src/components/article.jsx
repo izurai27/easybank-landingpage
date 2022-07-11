@@ -42,9 +42,9 @@ const Article = () => {
     <ArticleStyled>
       <h2>Latest Articles</h2>
       <div className="articleCards">
-        {articles.map(element => {
+        {articles.map((element,index) => {
         return (
-          <div className='article-item'>
+          <div className='article-item' key={index}>
             <img src={element.image} alt="illustration" />
             <div className="caption">
               <cite>By {element.author}</cite>
