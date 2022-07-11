@@ -9,17 +9,22 @@ export const HeroStyled = styled.main`
     background-image: url(${bgImg});
     background-repeat: no-repeat;
     background-size: cover;
+    background-position: left 60%;
     overflow: hidden;
     width:100%;
-    aspect-ratio: 1/1;
-    display:flex;
-    align-items: flex-end;
+    aspect-ratio: 375/257;
+    
   }
   .mockup{
     width:100%;
+    height: 100%;
+    display:flex;
+    align-items: flex-end;
+    justify-content: center;
   }
   img{
     width:100%;
+    width:calc(300/375*100%);
     /* margin-top:-96px; */
     
   }
