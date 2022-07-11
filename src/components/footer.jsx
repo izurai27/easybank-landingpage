@@ -10,14 +10,18 @@ import pin from '../images/icon-pinterest.svg'
 const Footer = () => {
   return (
     <FooterStyled>
-      <Logo className='footer_logo'/>
-      <div className="socmed">
-        <img src={fb} alt="facebook logo" />
-        <img src={yt} alt="youtube logo" />
-        <img src={twit} alt="twitter logo" />
-        <img src={pin} alt="pinterest logo" />
-        <img src={ig} alt="instagram logo" />
+      <div className="group left">
+        <Logo className='footer_logo'/>
+        <div className="socmed">
+          <img src={fb} alt="facebook logo" />
+          <img src={yt} alt="youtube logo" />
+          <img src={twit} alt="twitter logo" />
+          <img src={pin} alt="pinterest logo" />
+          <img src={ig} alt="instagram logo" />
+        </div>
+
       </div>
+
       <ul>
         <li>About</li>
         <li>Contact</li>
@@ -26,8 +30,11 @@ const Footer = () => {
         <li>Support</li>
         <li>Privacy Policy</li>
       </ul>
-      <button>Request Invite</button>
-      <div>© Easybank. All Rights Reserved</div>
+      <div className="group right">
+        <button>Request Invite</button>
+        <div>© Easybank. All Rights Reserved</div>
+
+      </div>
     </FooterStyled>
     
   )

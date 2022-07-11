@@ -53,7 +53,7 @@ export const HeroStyled = styled.main`
       align-items: flex-end;
       justify-content: left;
       overflow: hidden;
-      width:90%;
+      width:100%;
       height:fit-content;
       
 

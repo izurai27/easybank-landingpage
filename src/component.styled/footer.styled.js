@@ -11,6 +11,14 @@ export const FooterStyled = styled.footer`
   padding:calc(37/16*1rem);
   font-size: calc(15/16*1rem);
 
+  ul, .group{
+    width:100%;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    row-gap: 2rem;
+  }
+
   ul{
     display:flex;
     flex-direction: column;
@@ -21,8 +29,31 @@ export const FooterStyled = styled.footer`
     display: flex;
     column-gap: 1rem;
   }
+
   li{
     cursor:pointer;
   }
   
+  @media only screen and (min-width:765px){
+    flex-direction: row;
+    justify-content: space-between;
+    padding:calc(50/16*1rem) 10rem;
+    box-sizing: border-box;
+  
+    ul{
+      flex-wrap:wrap;
+      height:calc(89/16*1rem);
+      align-items:flex-start;
+    }
+  
+    .right{
+      align-items:flex-end;
+    }
+
+    .left{
+      align-items: flex-start;
+    }
+  }
+
+
 `
