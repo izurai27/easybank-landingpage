@@ -14,12 +14,12 @@ const Hero = () => {
       </div>
       <div className='message'>
 
-        <Gap height='3rem'/>
+        
         <h1>Next generation digital banking</h1>
         <Gap height='1rem'/>
         <p>Take your financial life online. Your Easybank account will be a one-stop-shop 
   for spending, saving, budgeting, investing, and much more.</p>
-        <Gap height='1rem'/>
+        <Gap height='1.9rem'/>
         <button className="atcInvite">
           Request Invite
         </button>

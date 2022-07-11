@@ -11,9 +11,11 @@ export const HeroStyled = styled.main`
     background-size: cover;
     background-position: left 60%;
     background-position: left bottom;
+    background-position: left 63%;
+    
     overflow: hidden;
     width:100%;
-    aspect-ratio: 375/360;
+    aspect-ratio: 375/325;
     /* aspect-ratio: 1/1; */
     
   }
@@ -23,7 +25,7 @@ export const HeroStyled = styled.main`
     display:flex;
     align-items: flex-end;
     justify-content: center;
-    transform:translateY(-60px)
+    transform:translateY(-26px)
   }
   img{
     width:100%;
@@ -34,7 +36,9 @@ export const HeroStyled = styled.main`
   .message{
     padding-inline: 2rem;
   }
-
+ h1{
+    margin-top:-5px;
+  }
 
   @media only screen and (min-width:765px){
     display: flex;

@@ -31,15 +31,15 @@ h1{
   font-size:calc(42/16*1rem);
   letter-spacing: -0.04em;
   color: var(--darkBlue);
-  
-  
+  font-weight: 300;
+  line-height: 1.15em;
 }
 
 p{
   font-size:1rem;
-  letter-spacing:-0.04em;
+  letter-spacing:-0.06em;
   color:var(--grayishBlue);
-  line-height:106%;
+  line-height:1.6em;
   
 }
 
@@ -49,13 +49,14 @@ button{
   height:calc(46/16*1rem);
   border-radius:calc(32/16*1rem);
   background-image: linear-gradient(135deg, var(--limeGreen), var(--brightCyan));
-  color:white;
+  color:var(--lightGrayishBlue);
   cursor:pointer;
+  font-weight: 700;
 }
 
 h2{
-  font-size:calc(42/16*1rem);
-  letter-spacing: -0.04em;
+  font-size:calc(29/16*1rem);
+  letter-spacing: -0.01em;
   color:var(--darkBlue);
 }
 

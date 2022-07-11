@@ -3,7 +3,7 @@ import styled from "styled-components";
 export const ReasonStyled = styled.section`
   background-color: var(--lightGrayishBlue);
   text-align:center;
-  padding: 60px 24px;
+  padding: 60px calc(24/16*1rem);
   display:flex;
   flex-direction: column;
   row-gap: calc(36/16*1rem);
