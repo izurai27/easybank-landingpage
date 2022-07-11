@@ -40,20 +40,23 @@ const Article = () => {
   return (
 
     <ArticleStyled>
-      <h1>Latest Articles</h1>
-      {articles.map(element => {
-      return (
-        <div className='article-item'>
-          <img src={element.image} alt="illustration" />
-          <div className="caption">
-            <cite>By {element.author}</cite>
-            <h2>{element.title}</h2>
-            <p>{element.caption}</p>
+      <h2>Latest Articles</h2>
+      <div className="articleCards">
+        {articles.map(element => {
+        return (
+          <div className='article-item'>
+            <img src={element.image} alt="illustration" />
+            <div className="caption">
+              <cite>By {element.author}</cite>
+              <h2>{element.title}</h2>
+              <p>{element.caption}</p>
+            </div>
+          
           </div>
-        
-        </div>
-      )
-    })}
+        )
+      })}
+
+      </div>
 
     </ArticleStyled>
     

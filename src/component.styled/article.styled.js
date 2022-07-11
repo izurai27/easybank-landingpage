@@ -28,4 +28,25 @@ export const ArticleStyled = styled.article`
   cite{
     font-size:calc(10/16*1rem);
   }
+  
+  .articleCards{
+    width: 100%;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+  /* background-color: var(--veryLightGray); */
+    row-gap: calc(23/16*1rem);
+  /* padding-top:calc(86/16*1rem); */
+  }
+
+  @media only screen and (min-width:765px){
+    padding:30px calc(166/16*1rem) ;
+
+    .articleCards{
+      flex-direction: row;
+      justify-content: space-between;
+      column-gap: 2rem;
+      align-items: flex-start;
+    }
+  }
 `
