@@ -14,6 +14,7 @@ export default createGlobalStyle`
 --lightGrayishBlue: hsl(220, 16%, 96%);
 --veryLightGray: hsl(0, 0%, 98%);
 --white: hsl(0, 0%, 100%);
+--breakpoint:1440px;
 } 
  
  
@@ -23,7 +24,7 @@ body{
   
   font-size: calc(18/16*1rem);
   font-family: 'Public Sans', sans-serif;
-  overflow: hidden;
+  /* overflow: hidden; */
 }
 
 h1{

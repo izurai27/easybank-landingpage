@@ -28,7 +28,7 @@ export const HeroStyled = styled.main`
   }
 
 
-  @media only screen and (min-width:1440px){
+  @media only screen and (min-width:765px){
     display: flex;
     flex-direction: row-reverse;
     justify-content:space-between;
