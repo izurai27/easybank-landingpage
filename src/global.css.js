@@ -32,6 +32,7 @@ h1{
   letter-spacing: -0.04em;
   color: var(--darkBlue);
   
+  
 }
 
 p{
@@ -39,8 +40,7 @@ p{
   letter-spacing:-0.04em;
   color:var(--grayishBlue);
   line-height:106%;
-  /* margin-top:1rem;
-  margin-bottom:1rem; */
+  
 }
 
 button{
@@ -58,4 +58,23 @@ h2{
   letter-spacing: -0.06em;
   color:var(--darkBlue);
 }
+
+@media only screen and (min-width:765px){
+
+  h1{
+    font-size:calc(53/16*1rem);
+    letter-spacing: 0;
+       
+  }
+
+  p{
+  font-size:calc(19/16*1rem);
+ 
+  
+  line-height:106%;
+  
+}
+
+}
+
 `

@@ -6,9 +6,9 @@ export const ReasonStyled = styled.section`
   padding: 60px 24px;
   display:flex;
   flex-direction: column;
-  row-gap: 36px;
+  row-gap: calc(36/16*1rem);
 
-  .group{
+  .title,.group{
     display:flex;
     flex-direction: column;
     row-gap:25px;
@@ -19,4 +19,28 @@ export const ReasonStyled = styled.section`
   img{
     width: calc(67/16*1rem);
   }
+
+
+  @media only screen and (min-width:765px){
+    align-items: flex-start;
+    padding: calc(105/16*1rem) 10rem;
+    row-gap: calc(73/16*1rem);
+
+    .cards{
+      display:flex;
+    }
+
+    .group{
+      text-align: left;
+      align-items: flex-start;
+    }
+
+    .title{
+      align-items: flex-start;
+      width:calc(800/1440*100%);
+      text-align: left;
+      row-gap:calc(41/16*1rem);
+    }
+  }
+
 `
