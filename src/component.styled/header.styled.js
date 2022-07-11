@@ -4,16 +4,16 @@ export const HeaderStyled = styled.header`
   display:flex;
   justify-content: space-between;
   align-items: center;
-  height: 60px;
+  height: calc(64/16*1rem);
   box-sizing: border-box;
   position:relative;
-  z-index:777;
+  /* z-index:777; */
   
   .logo{
-    padding-left:20px;
+    padding-left:23px;
   }
 
   .mobileMenu{
-    padding-right:20px;
+    padding-right:23px;
   }
 `

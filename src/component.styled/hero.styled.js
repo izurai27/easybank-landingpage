@@ -10,9 +10,11 @@ export const HeroStyled = styled.main`
     background-repeat: no-repeat;
     background-size: cover;
     background-position: left 60%;
+    background-position: left bottom;
     overflow: hidden;
     width:100%;
-    aspect-ratio: 375/257;
+    aspect-ratio: 375/360;
+    /* aspect-ratio: 1/1; */
     
   }
   .mockup{
@@ -21,12 +23,12 @@ export const HeroStyled = styled.main`
     display:flex;
     align-items: flex-end;
     justify-content: center;
+    transform:translateY(-60px)
   }
   img{
     width:100%;
-    width:calc(300/375*100%);
-    /* margin-top:-96px; */
-    
+    width:calc(345/375*100%);
+   
   }
 
   .message{
@@ -45,7 +47,7 @@ export const HeroStyled = styled.main`
       background-image: url(${bgImgDesktop});
       background-size: 153%;
       background-position: 6% 67%; 
-      aspect-ratio: 11 / 9;
+      aspect-ratio:  784/ 658;
       position:relative;
       overflow: visible;
     }
