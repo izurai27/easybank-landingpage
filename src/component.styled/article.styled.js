@@ -17,7 +17,7 @@ export const ArticleStyled = styled.article`
   }
 
   img{
-    width: 100%;
+    height: 100%;
   }
 
   .article-item{
@@ -61,10 +61,10 @@ export const ArticleStyled = styled.article`
 }
 
   @media only screen and (min-width:765px){
-    padding:calc(78/16*1rem) calc(155/16*1rem) ;
+    padding:calc(90/16*1rem) calc(155/16*1rem) ;
     align-items: flex-start;
-    
-
+    row-gap: calc(45/16*1rem);
+    padding-bottom:calc(85/16*1rem);
     .articleCards{
       flex-direction: row;
       justify-content: space-between;
@@ -77,6 +77,12 @@ export const ArticleStyled = styled.article`
     .article-item{
       max-width: calc(253/16*1rem); 
     }
+
+    p{
+ 
+  line-height:1.3em;
+  
+}
 
   }
 `

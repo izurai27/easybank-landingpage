@@ -52,6 +52,9 @@ export const FooterStyled = styled.footer`
       flex-wrap:wrap;
       height:calc(89/16*1rem);
       align-items:flex-start;
+      /* width:calc(590/1440*100vw); */
+      padding-right:calc(300/16*1rem);
+      box-sizing: border-box;
     }
   
     .right{
@@ -60,6 +63,7 @@ export const FooterStyled = styled.footer`
 
     .left{
       align-items: flex-start;
+      /* width:fit-content; */
     }
   }
 

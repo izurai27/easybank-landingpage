@@ -59,6 +59,11 @@ h2{
   letter-spacing: -0.01em;
   color:var(--darkBlue);
   line-height: 1.2em ;
+
+  @media only screen and (min-width:765px){
+    font-size:calc(40/16*1rem);
+      letter-spacing: -0.01em;
+  }
 }
 
 h3{

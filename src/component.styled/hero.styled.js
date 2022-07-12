@@ -45,12 +45,14 @@ export const HeroStyled = styled.main`
     flex-direction: row-reverse;
     justify-content:space-between;
     align-items:center;
+    background-color: var(--veryLightGray);
     /* overflow: visible; */
     
     .img{
       background-image: url(${bgImgDesktop});
-      background-size: 153%;
+      background-size: 160%;
       background-position: 6% 67%; 
+      width:130%;
       aspect-ratio:  784/ 658;
       position:relative;
       overflow: visible;
@@ -58,7 +60,7 @@ export const HeroStyled = styled.main`
 
     .mockup{
       position:absolute;
-      top:0;
+      top:25px;
       right:0;
       display:flex;
       align-items: flex-end;
@@ -73,7 +75,7 @@ export const HeroStyled = styled.main`
       
       width:100%;
       transform: translate(112px, -117px);
-      transform: translate(17%, -13%);
+      transform: translate(17%, -14%);
       
     }
 
