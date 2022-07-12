@@ -7,7 +7,7 @@ export const FooterStyled = styled.footer`
   flex-direction: column;
   align-items: center;
   text-align: center;
-  row-gap: 2rem;
+  row-gap: 2.4rem;
   padding:calc(37/16*1rem);
   font-size: calc(15/16*1rem);
 
@@ -36,6 +36,10 @@ export const FooterStyled = styled.footer`
 
   li{
     cursor:pointer;
+  }
+
+  .right{
+    color:var(--grayishBlue)
   }
   
   @media only screen and (min-width:765px){

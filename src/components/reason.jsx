@@ -5,10 +5,12 @@ import budgetingImg from '../images/icon-budgeting.svg'
 import onboardingImg from '../images/icon-onboarding.svg'
 import apiImg from '../images/icon-api.svg'
 
+
 const Reason = () => {
   return (
     <ReasonStyled>
       <div className="title">
+        
         <h2>Why choose<br/>Easybank?</h2>
         <p>We leverage Open Banking to turn your bank account into your financial hub. Control 
     your finances like never before.</p>

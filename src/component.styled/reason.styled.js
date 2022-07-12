@@ -3,21 +3,36 @@ import styled from "styled-components";
 export const ReasonStyled = styled.section`
   background-color: var(--lightGrayishBlue);
   text-align:center;
-  padding: 60px calc(24/16*1rem);
+  padding: calc(73/16*1rem) calc(24/16*1rem);
   display:flex;
   flex-direction: column;
-  row-gap: calc(36/16*1rem);
+  row-gap: calc(55/16*1rem);
 
-  .title,.group{
+  .title{
     display:flex;
     flex-direction: column;
-    row-gap:25px;
+    row-gap:calc(16/16*1rem);
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .group{
+    display:flex;
+    flex-direction: column;
+    row-gap:calc(27/16*1rem);
     justify-content: space-between;
     align-items: center;
   }
 
   img{
-    width: calc(67/16*1rem);
+    width: calc(70/16*1rem);
+  }
+
+  .cards{
+    display: flex;
+    flex-direction: column;
+    row-gap:calc(25/16*1rem);
+
   }
 
 
@@ -27,7 +42,7 @@ export const ReasonStyled = styled.section`
     row-gap: calc(73/16*1rem);
 
     .cards{
-      display:flex;
+      flex-direction: row;
       column-gap: 2rem;
     }
 

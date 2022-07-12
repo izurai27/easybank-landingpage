@@ -55,13 +55,14 @@ button{
 }
 
 h2{
-  font-size:calc(29/16*1rem);
+  font-size:calc(30/16*1rem);
   letter-spacing: -0.01em;
   color:var(--darkBlue);
+  line-height: 1.2em ;
 }
 
 h3{
-  font-size:calc(20/16*1rem);
+  font-size:calc(16/16*1rem);
   letter-spacing: -0.06em;
   color:var(--darkBlue);
 }

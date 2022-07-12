@@ -45,7 +45,10 @@ const Article = () => {
         {articles.map((element,index) => {
         return (
           <div className='article-item' key={index}>
-            <img src={element.image} alt="illustration" />
+            <div className="illustration">
+               <img src={element.image} alt="illustration" />
+            </div>
+           
             <div className="caption">
               <cite>By {element.author}</cite>
               <h3>{element.title}</h3>
